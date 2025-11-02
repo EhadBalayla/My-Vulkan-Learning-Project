@@ -1,87 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Engine.cpp">
+    <ClCompile Include="Src\stbi_image_impl.cpp" />
+    <ClCompile Include="Src\Main.cpp" />
+    <ClCompile Include="Src\Camera.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="Window.cpp">
+    <ClCompile Include="Src\Engine.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="Renderer.cpp">
+    <ClCompile Include="Src\EngineUtilities.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="VertexBuffer.cpp">
+    <ClCompile Include="Src\IndexBuffer.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="IndexBuffer.cpp">
+    <ClCompile Include="Src\Renderer.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="EngineUtilities.cpp">
+    <ClCompile Include="Src\Shader.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="Shader.cpp">
+    <ClCompile Include="Src\StaticMesh.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="StaticMesh.cpp">
+    <ClCompile Include="Src\Texture.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
+    <ClCompile Include="Src\VertexBuffer.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="Texture.cpp">
+    <ClCompile Include="Src\Window.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="stbi_image_impl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
       <UniqueIdentifier>{53138bdf-2d0e-4a92-a62e-70ecf1410973}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Shaders">
-      <UniqueIdentifier>{82d4af14-59aa-455d-9704-acb892fe4ed1}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Engine.h">
+    <ClInclude Include="Headers\VertexStruct.h" />
+    <ClInclude Include="Headers\stbi_image.h" />
+    <ClInclude Include="Headers\Camera.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="Window.h">
+    <ClInclude Include="Headers\Engine.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="Renderer.h">
+    <ClInclude Include="Headers\EngineUtilities.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="VertexStruct.h" />
-    <ClInclude Include="VertexBuffer.h">
+    <ClInclude Include="Headers\IndexBuffer.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="IndexBuffer.h">
+    <ClInclude Include="Headers\Renderer.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="EngineUtilities.h">
+    <ClInclude Include="Headers\Shader.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="Shader.h">
+    <ClInclude Include="Headers\StaticMesh.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="StaticMesh.h">
+    <ClInclude Include="Headers\Texture.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="Headers\VertexBuffer.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="Texture.h">
+    <ClInclude Include="Headers\Window.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="stbi_image.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Default.vert">
-      <Filter>Shaders</Filter>
-    </None>
-    <None Include="Default.frag">
-      <Filter>Shaders</Filter>
-    </None>
   </ItemGroup>
 </Project>
