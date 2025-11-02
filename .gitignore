@@ -1,0 +1,57 @@
+# User-specific files
+.vs/
+.idea/
+
+# User-specific config files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ReleasePublic/
+x64/
+x86/
+x64-Debug/
+x64-Release/
+x86-Debug/
+x86-Release/
+
+# Ignore Engine build output (custom path)
+Engine/Build/*
+
+# Ignore Editor build output (default VS output path, recursive)
+x64/
+x86/
+**/[Dd]ebug*/
+**/[Rr]elease*/
+
+# .NET files
+bin/
+obj/
+
+# Tye and ASP.NET files
+appsettings.Development.json
+appsettings.Production.json
+
+# Package directories
+packages/
+
+# C++ specific files
+*.vcxproj.user
+
+# Other unnecessary files
+*.log
+*.vsconfig
+*.sqlite
